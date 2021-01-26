@@ -28,10 +28,10 @@ humidity_monitor_pin = 3        #Pin number for humidity probe
 humidity_control_pin = 4        #Pin number for humidity control mechanism
 light_control_pin = 5           #Pin number for light control mechanism
 
-min_temperature = 80            #Minimum temperature to be allowed by temperature controller, in degrees Farenheit
-max_temperature = 90            #Maximum temperature to be allowed by temperature controller, in degrees Farenheit
-min_humidity = 50               #Minimum humdity to be allowed by humidity controller (in %humidity)
-max_humidity = 100              #Maximum humdity to be allowed by humidity controller (in %humidity)
+min_temperature = 89            #Minimum temperature to be allowed by temperature controller, in degrees Farenheit
+max_temperature = 91            #Maximum temperature to be allowed by temperature controller, in degrees Farenheit
+min_humidity = 40               #Minimum humdity to be allowed by humidity controller (in %humidity)
+max_humidity = 70              #Maximum humdity to be allowed by humidity controller (in %humidity)
 light_cycle_time = 12           #Cycle time for lights, in hours. Lights will cycle on/off every light_cycle_time hours
 sample_frequency = 60           #Frequency at which tank conditions are tested, in seconds
 #-----------------------------
