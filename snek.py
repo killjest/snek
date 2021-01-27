@@ -23,10 +23,10 @@ import RPi.GPIO as gpio
 #devices are properly attached
 #-----------------------------
 temperature_monitor_pin = 1     #Pin number for temperature probe
-temperature_control_pin = 2     #Pin number for temperature control mechanism
+temperature_control_pin = 26     #Pin number for temperature control mechanism
 humidity_monitor_pin = 3        #Pin number for humidity probe
-humidity_control_pin = 4        #Pin number for humidity control mechanism
-light_control_pin = 5           #Pin number for light control mechanism
+humidity_control_pin = 21        #Pin number for humidity control mechanism
+light_control_pin = 20           #Pin number for light control mechanism
 
 min_temperature = 89            #Minimum temperature to be allowed by temperature controller, in degrees Farenheit
 max_temperature = 91            #Maximum temperature to be allowed by temperature controller, in degrees Farenheit
